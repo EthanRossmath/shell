@@ -51,10 +51,13 @@ cd - #going back to the directory assignments
 
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
 rf -rf ./data
+<<<<<<< HEAD
 
 rm data/raw/ipaddr* #removing all ipaddr files from raw
 rm data/raw/user_ipaddr* #removing user_ipadder files from raw
 rm data/processed/user_logs/user_ipaddr* #removing user_ipadder files from user_logs
+=======
+>>>>>>> ea20676d33161a6f4d0fcd3c4f7aa5360f0f4309
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 
