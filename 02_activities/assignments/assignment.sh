@@ -56,10 +56,10 @@ rm processed/user_logs/user_ipaddr* #removing user_ipadder files from user_logs
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 
-touch data/invetory.txt #making new file called "invetory.txt" in data
-ls data/processed/server_logs >> data/invetory.txt #copying the list of contents of server_logs to invetory.txt
-ls data/processed/user_logs >> data/invetory.txt #copying the list of contents of user_logs to invetory.txt
-ls data/processed/event_logs >> data/invetory.txt #copying the list of contents of event_logs to invetory.txt
+touch invetory.txt #making new file called "invetory.txt" in data
+ls processed/server_logs >> invetory.txt #copying the list of contents of server_logs to invetory.txt
+ls processed/user_logs >> invetory.txt #copying the list of contents of user_logs to invetory.txt
+ls processed/event_logs >> invetory.txt #copying the list of contents of event_logs to invetory.txt
 
 
 
